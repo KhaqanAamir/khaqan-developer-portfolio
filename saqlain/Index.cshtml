@@ -1,0 +1,170 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+<script src="~/Scripts/jquery-3.3.1.js"></script>
+<table id="tab1" width="300px" border="1">
+    <tr>
+        <th>Book_Id</th>
+        <th>BookName</th>
+        <th>BookISBN:</th>
+    </tr>
+
+</table>
+Book_Id: <input type="text" name="id" id="id" value="" /><br />
+BookName : <input type="text" name="name" id="name" class="na" value="" /><br />
+
+BookISBN: <input type="text" name="fname" id="fname" value="" /><br />
+<input type="button" name="btn" id="btn1" value="Add Book " />
+<input type="button" name="btn2" id="btn2" value="Delete Book " />
+
+<input type="button" name="btn3" id="btn3" value="Update Book " />
+
+
+<script>
+    $(document).ready(function () {
+
+        $("#tab1").css("display", "none");
+        $.getJSON("/api/Books/", function (data) {
+            alert(data);
+            $("#tab1").css("display", "block");
+            $.each(data, function (key, val) {
+                $("<tr><td>" + val.BookId + "</td><td>" + val.BookName + "</td><td>" + val.BookISBN + "</td></tr>").appendTo($("#tab1"));
+
+
+            })
+        })
+        //////////////////////////////////////////po
+    
+        //POST
+        $("#btn1").click(function () {
+            var id = $("#id").val();
+            var name = $(".na").val();
+            var fname = $("#fname").val();
+          
+            $.ajax({
+
+                url: "http://localhost:59978/api/Books",
+                method: "POST",
+                dataType: "JSON",
+
+                data: {
+                    "BookID": id,
+                    "BookName": name,
+                    "BookISBN": fname
+                },
+
+
+                success: function (data) {
+                    
+
+                    console.log(data);
+                    $.getJSON("/api/Books/", function (data) {
+                        $("#tab1").css("display", "block");
+                        $.each(data, function (key, val) {
+                            $("<tr><td>" + val.BookId + "</td><td>" + val.BookName + "</td><td>" + val.BookISBN + "</td></tr>").appendTo($("#tab1"));
+
+
+                        })
+
+                    })
+
+
+
+                }
+            });
+
+
+        })
+        //Delete
+        $("#btn2").click(function () {
+            var id = $("#id").val();
+
+            $.ajax({
+
+                type: "DELETE",
+
+                contentType: "application/json;charset=utf-8",
+
+                url: "/api/Books/" + $("#id").val(),
+
+                data: JSON.stringify({
+
+
+
+                    name: $("#id").val(),
+
+
+
+
+
+                }),
+
+                dataType: "JSON",
+
+                success: function (data) {
+                    $("#tab1").find("tr:gt(0)").remove();
+                    $.getJSON("/api/Books/", function (data) {
+                        $("#tab1").css("display", "block");
+                        $.each(data, function (key, val) {
+                            $("<tr><td>" + val.BookId + "</td><td>" + val.BookName + "</td><td>" + val.BookISBN + "</td></tr>").appendTo($("#tab1"));
+
+
+                        })
+
+                    })
+
+
+
+                }
+            });
+
+
+        })
+
+        //Update
+        $("#btn3").click(function () {
+            var id = $("#id").val();
+            var name = $(".na").val();
+            var fname = $("#fname").val();
+
+            $.ajax({
+
+                url: "/api/Books/" + $("#id").val(),
+                method: "PUT",
+                dataType: "JSON",
+
+                data: {
+                    "BookID": id,
+                    "BookName": name,
+                    "BookISBN": fname
+                },
+
+
+                success: function (data) {
+
+
+                    console.log(data);
+                    $.getJSON("/api/Books/", function (data) {
+                        $("#tab1").css("display", "block");
+                        $.each(data, function (key, val) {
+                            $("<tr><td>" + val.BookId + "</td><td>" + val.BookName + "</td><td>" + val.BookISBN + "</td></tr>").appendTo($("#tab1"));
+
+
+                        })
+
+                    })
+
+
+
+                }
+            });
+
+
+        })
+    });
+
+</script>

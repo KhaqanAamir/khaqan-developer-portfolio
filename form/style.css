@@ -1,0 +1,25 @@
+.header{
+    color: brown;
+    border-style: dotted;
+}
+body{
+    
+margin: auto;
+   background-color: beige;
+/*border-style: solid;*/
+    text-align: center;
+}
+.container{
+    color: darkgreen;
+    border-style: solid;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    background-color: black
+        
+    
+    
+    
+}

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href = "css/main.css">
+<title> CHAT </title>
+
+ </head>
+
+<body>
+<div class = "chat">
+  <input type= "text" class= "chat-name" placeholder="Enter your name">
+  <div class = "chat-message"> </div>
+  <textarea class = "chat-textarea" placeholder="Type your message" ></textarea>
+<div class="chat-status"> Status: <span>Idle </span> </div>
+</div>
+<script src= "http://127.0.0.1:8080/socket.io/socket.io.js"></script>
+<script>
+(function() {
+var getnode = function(s){
+return document.querySelector(s);
+
+
+}
+var status = getnode ('.chat-status span'),
+ messages = getnode ('.chat-message')
+textarea= getnode ('.chat-textarea'),
+chatName = getnode ('.chat-name'),
+
+Defaults = status.textContent;
+
+
+var setStatus = function (s){
+  status.textContent= s;
+  if (s !== Defaults){
+var delay = setTimeout (function(){
+
+setStatus (Defaults);
+clearInterval(delay);
+
+}, 3000)
+
+
+  }
+
+}
+
+
+try {
+var socket = io.connect('http://127.0.0.1:8080');
+
+
+}catch (e)
+{}
+if (socket !== undefined ){
+//listen for output
+
+socket.on ('output', function(data){
+if (data.length){
+//loop
+for (var i=0; i< data.length; i++){
+var message = document.createElement ('div');
+message.setAttribute('class', 'chat-message');
+message.textContent = data[i].name + ':' + data[i].message;
+messages.appendChild (message);
+//messages.insertBefore(message);
+
+
+}
+
+}
+
+
+})
+
+
+//listen for a status
+socket.on('status', function (data){
+setStatus ((typeof data === 'object') ? data.message : data);
+if (data.clear === true){
+textarea.value = '';
+
+}
+
+
+
+
+
+})
+
+
+
+textarea.addEventListener('keydown', function(event){
+var self = this;
+var name = chatName.value;
+
+if (event.which === 13 && event.shiftKey === false){
+socket.emit ('input', {name: name, message: self.value});
+
+}
+
+
+})
+
+
+}
+})();
+
+
+</script>
+ </body>
+</html>

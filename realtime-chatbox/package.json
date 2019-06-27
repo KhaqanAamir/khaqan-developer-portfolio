@@ -1,0 +1,16 @@
+{
+  "name": "realtime-chatbox",
+  "version": "1.0.0",
+  "description": "real time application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "bubz",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^2.2.36",
+    "socket.io": "^1.0.6"
+  }
+}

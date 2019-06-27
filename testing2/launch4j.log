@@ -1,0 +1,14 @@
+
+
+Version:	3.12
+CmdLine:	C:\Users\bubz_\Desktop\testing2\dem.exe --l4j-debug
+WOW64:		yes
+Working dir:	C:\Users\bubz_\Desktop\testing2\.
+Java min ver:	
+Java max ver:	
+Bundled JRE:	bin\jre1.8.0_171
+Check launcher:	C:\Users\bubz_\Desktop\testing2\bin\jre1.8.0_171\bin\javaw.exe (OK)
+Launcher:	C:\Users\bubz_\Desktop\testing2\bin\jre1.8.0_171\bin\javaw.exe
+Launcher args:	-jar "C:\Users\bubz_\Desktop\testing2\dem.exe"
+Args length:	46/32768 chars
+Exit code:	0

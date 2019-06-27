@@ -1,0 +1,20 @@
+{
+  "name": "myproj",
+  "version": "1.0.0",
+  "description": "will be launching it soon",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "esm": "^3.2.22",
+    "express": "^4.16.4",
+    "mongodb": "^2.2.36",
+    "mongoose": "^5.5.2",
+    "mysql": "^2.10.2"
+  }
+}
