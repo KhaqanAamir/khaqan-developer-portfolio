@@ -1,0 +1,35 @@
+.certifications-maindiv{
+    margin: 70px;   
+}
+
+.certifications-container{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.certification1{
+    box-shadow: 1px 5px 10px 5px #888888;
+    border-radius: 15px;
+    line-height: 2em;
+    padding: 8px;
+    max-width: 400px;
+    margin-top: 35px;
+}
+
+.certification1 img{
+    height:fit-content;
+    width:150px;    
+}
+
+.certification1 button{
+    padding: 10px;
+    background-color: rgb(112, 11, 184);
+    color: white;
+    border-radius: 10px;
+    max-width: fit-content;
+    font-weight: 700;
+    margin:0px 45px;
+    border:0px;
+    margin-bottom: 10px;
+}

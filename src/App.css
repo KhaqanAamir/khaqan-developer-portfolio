@@ -1,0 +1,22 @@
+/* Education component styling */
+
+.Education-main-div{
+    margin: 70px;
+}
+
+.school{
+    display: flex;
+    
+}
+
+.Education-image-div{
+    flex-basis:content;
+    margin:0px 25px 0px 0px;
+}
+
+.Education-image-div img{ 
+    height:120px;
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 20px 5px  lightgray;
+}

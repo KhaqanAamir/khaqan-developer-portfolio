@@ -1,0 +1,73 @@
+.intro-main-div{
+    margin:70px;
+}
+
+.intro-flex-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro-flex-div p{
+    color: grey;
+    font-size: 2em;
+}
+
+
+.intro-flex-left-div{
+    flex-basis: 50%;
+}
+
+.container{
+    width: fit-content;
+    position: relative;
+    bottom: 90px;
+}
+
+.social-media-icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    width: 8%;
+}
+
+.intro-flex-left-div button{
+    padding: 10px;
+    background-color: rgb(112, 11, 184);
+    color: white;
+    border-radius: 10px;
+    width: 30%;
+    font-weight: 700;
+    margin:0px 45px;
+    border:0px;
+}
+
+.intro-flex-right-div img{
+    margin: 0px 15px 20px 0px;
+}
+
+.intro-flex-right-div a:hover{
+    color:blue;
+}
+ 
+.meter{
+    display: block;
+    width: 100%;
+    background-color: #f3efef;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.meter span{
+    background-color: #aaa5ff;
+    height: 20px;
+    display: block;
+    border-radius: 20px;
+}
+
+.skills p{
+    font-size: 20px;
+    color: black;
+    line-height: 3.5em;
+}
