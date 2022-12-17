@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/khaqan-developer-portfolio/static/css/main.ac5fa5ac.css",
+    "main.js": "/khaqan-developer-portfolio/static/js/main.aeef2276.js",
+    "static/js/787.1ed0c42c.chunk.js": "/khaqan-developer-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/khaqan-developer-portfolio/index.html",
+    "main.ac5fa5ac.css.map": "/khaqan-developer-portfolio/static/css/main.ac5fa5ac.css.map",
+    "main.aeef2276.js.map": "/khaqan-developer-portfolio/static/js/main.aeef2276.js.map",
+    "787.1ed0c42c.chunk.js.map": "/khaqan-developer-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ac5fa5ac.css",
+    "static/js/main.aeef2276.js"
+  ]
+}
