@@ -10,7 +10,7 @@ function Intro() {
       <div className="intro-flex-div">
         <div className="intro-flex-left-div">
           <h1>Hi all, I'm Khaqan</h1> <br /><br />
-          <p>A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks.</p>
+          <p>A passionate Full Stack Software Developer 🚀 having an experience of building Web applications with JavaScript / Reactjs / Nodejs and some other cool libraries and frameworks.</p>
           <div className="social-media-icons">
             <img src="https://tse2.mm.bing.net/th?id=OIP.z563E6C5FgBAnx4moTFeSgHaFj&pid=Api&P=0" alt="GitHub" />
             <img src="https://tse2.mm.bing.net/th?id=OIP.w_zDkEJ9aLiWR-g0rff8hwHaHa&pid=Api&P=0" alt="Linkedin" />
