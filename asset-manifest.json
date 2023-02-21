@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/khaqan-developer-portfolio/static/css/main.ac5fa5ac.css",
-    "main.js": "/khaqan-developer-portfolio/static/js/main.aeef2276.js",
-    "static/js/787.1ed0c42c.chunk.js": "/khaqan-developer-portfolio/static/js/787.1ed0c42c.chunk.js",
-    "index.html": "/khaqan-developer-portfolio/index.html",
-    "main.ac5fa5ac.css.map": "/khaqan-developer-portfolio/static/css/main.ac5fa5ac.css.map",
-    "main.aeef2276.js.map": "/khaqan-developer-portfolio/static/js/main.aeef2276.js.map",
-    "787.1ed0c42c.chunk.js.map": "/khaqan-developer-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/my-first-repo/static/css/main.e418bcb2.css",
+    "main.js": "/my-first-repo/static/js/main.5294636b.js",
+    "static/js/787.9b06cee2.chunk.js": "/my-first-repo/static/js/787.9b06cee2.chunk.js",
+    "index.html": "/my-first-repo/index.html",
+    "main.e418bcb2.css.map": "/my-first-repo/static/css/main.e418bcb2.css.map",
+    "main.5294636b.js.map": "/my-first-repo/static/js/main.5294636b.js.map",
+    "787.9b06cee2.chunk.js.map": "/my-first-repo/static/js/787.9b06cee2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac5fa5ac.css",
-    "static/js/main.aeef2276.js"
+    "static/css/main.e418bcb2.css",
+    "static/js/main.5294636b.js"
   ]
 }
