@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/my-app/static/css/main.f0f7432b.css",
-    "main.js": "/my-app/static/js/main.00f558e0.js",
-    "static/js/787.1ed0c42c.chunk.js": "/my-app/static/js/787.1ed0c42c.chunk.js",
-    "index.html": "/my-app/index.html",
-    "main.f0f7432b.css.map": "/my-app/static/css/main.f0f7432b.css.map",
-    "main.00f558e0.js.map": "/my-app/static/js/main.00f558e0.js.map",
-    "787.1ed0c42c.chunk.js.map": "/my-app/static/js/787.1ed0c42c.chunk.js.map"
+    "main.css": "/khaqan-developer-portfolio/static/css/main.f0f7432b.css",
+    "main.js": "/khaqan-developer-portfolio/static/js/main.9ecadab5.js",
+    "static/js/787.1ed0c42c.chunk.js": "/khaqan-developer-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "index.html": "/khaqan-developer-portfolio/index.html",
+    "main.f0f7432b.css.map": "/khaqan-developer-portfolio/static/css/main.f0f7432b.css.map",
+    "main.9ecadab5.js.map": "/khaqan-developer-portfolio/static/js/main.9ecadab5.js.map",
+    "787.1ed0c42c.chunk.js.map": "/khaqan-developer-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f0f7432b.css",
-    "static/js/main.00f558e0.js"
+    "static/js/main.9ecadab5.js"
   ]
 }
