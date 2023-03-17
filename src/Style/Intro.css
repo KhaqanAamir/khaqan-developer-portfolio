@@ -1,5 +1,5 @@
 .intro-main-div{
-    margin:70px;
+    margin:70px 70px 0px 70px;
 }
 
 .intro-flex-div{
@@ -9,18 +9,28 @@
 
 .intro-flex-div p{
     color: grey;
-    font-size: 2em;
+    font-size: 1.1rem;
 }
 
 
 .intro-flex-left-div{
     flex-basis: 50%;
+    text-align: center;
 }
 
-.container{
-    width: fit-content;
+.intro-flex-right-div{
+    flex-basis: 100%;
     position: relative;
-    bottom: 90px;
+    bottom: 120px;
+    left: 120px;
+     
+}
+
+
+.intro-flex-right-div svg{
+    height:fit-content;
+    position: relative;
+    bottom: 50px;
 }
 
 .social-media-icons{
@@ -35,13 +45,17 @@ img{
 .intro-flex-left-div button{
     padding: 10px;
     background-color: rgb(112, 11, 184);
-    color: white;
     border-radius: 10px;
-    width: 30%;
-    font-weight: 700;
+    width:fit-content;
     margin:0px 45px;
     border:0px;
 }
+
+.intro-flex-left-div button a{
+    color: white;
+    font-size: small;
+}
+
 
 .intro-flex-right-div img{
     margin: 0px 15px 20px 0px;
@@ -50,24 +64,22 @@ img{
 .intro-flex-right-div a:hover{
     color:blue;
 }
- 
-.meter{
-    display: block;
-    width: 100%;
-    background-color: #f3efef;
-    height: 20px;
-    border-radius: 20px;
-}
 
-.meter span{
-    background-color: #aaa5ff;
-    height: 20px;
-    display: block;
-    border-radius: 20px;
-}
+@media screen and (max-width:948px){
+    .intro-main-div{
+        max-height:60vh;
+    }
+    .intro-flex-div{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .intro-flex-right-div{
+         display: block;
+        margin:0px 50% 0px 0px;
+    }
+    
+    
 
-.skills p{
-    font-size: 20px;
-    color: black;
-    line-height: 3.5em;
-}
+ }

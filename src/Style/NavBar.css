@@ -2,6 +2,7 @@ nav{
     padding: 15px;
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 }
 
 
@@ -12,25 +13,59 @@ nav{
     padding: 0 10px;
 }
 
+.nav-right-side{
+    display: flex;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
 a{
     text-decoration: none;
     font-family: cursive;
     font-size:x-large;
 }
 
-ul{
-    flex-basis: 80%;
-    padding-left: 100px;
+li{
+    list-style: none;
+    width: fit-content;
+    padding: 1rem;
+    overflow: hidden;
 }
 
-li{
-    float: left;
-    list-style: none;
-    margin: 5px;
-    padding:0px 15px 0px 0px;
-}
+
 
 .nav-right-side a{
     color: black;
     font-family:sans-serif
 }
+
+@media screen and (max-width:948px){
+    nav{
+        flex-direction: column;
+        overflow: hidden;
+        text-align: center;
+        padding: 0;
+        flex-wrap: wrap;
+    }
+    .nav-right-side{
+        justify-content: center;
+        flex-wrap: wrap;
+        overflow: hidden;
+        width: 100%;
+    }
+
+    li{
+        overflow: hidden;
+        padding: 5px;
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+    }
+    a{
+        text-decoration: none;
+        font-family: cursive;
+        font-size:medium;
+    }
+}
+

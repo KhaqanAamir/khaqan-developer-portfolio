@@ -1,5 +1,8 @@
 /* Education component styling */
-
+html{
+    width:fit-content;
+    overflow-x: hidden;
+}
 .Education-main-div{
     margin: 70px;
 }

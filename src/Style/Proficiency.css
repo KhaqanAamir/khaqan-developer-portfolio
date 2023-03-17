@@ -1,0 +1,126 @@
+.proficiency-main-div{
+    margin:70px;
+}
+
+.proficiency-flex-div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.proficiency-flex-div p{
+    color: grey;
+    font-size: 2em;
+}
+
+
+.proficiecncy-flex-left-div{
+    font-size: 20px;
+}
+
+.proficiency-flex-right-div{
+    /* padding: 0px 0px 15rem 8rem; */
+    padding: auto;
+    width: fit-content;
+}
+
+
+
+.social-media-icons{
+    display: flex;
+    justify-content: space-around;
+}
+
+img{
+    width: 8%;
+}
+
+.proficiency-flex-left-div button{
+    padding: 10px;
+    background-color: rgb(112, 11, 184);
+    color: white;
+    border-radius: 10px;
+    width: 30%;
+    font-weight: 400;
+    margin:0px 45px;
+    border:0px;
+    font-size: 10px;
+}
+
+.proficiency-flex-left-div button a{
+    color: white;
+}
+
+
+.proficiency-flex-right-div img{
+    margin: 0px 15px 20px 0px;
+}
+
+.proficiency-flex-right-div a:hover{
+    color:blue;
+}
+ 
+.meter{
+    display: block;
+    width: 100%;
+    background-color: #f3efef;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.meter span{
+    background-color: #aaa5ff;
+    height: 20px;
+    display: block;
+    border-radius: 20px;
+}
+
+.skills p{
+    font-size: 20px;
+    color: black;
+    line-height: 3.5em;
+}
+
+
+@media screen and (max-width:948px){ 
+
+    
+    h1{
+        margin: 0;
+    }
+    .proficiency-main-div p{
+        font-size: 1.1rem;
+    }
+    
+    .proficiency-flex-div{
+        justify-content: center;
+    }
+    
+    .proficiency-flex-left-div{
+        max-width: fit-content;
+    }
+    
+    .proficiency-flex-right-div{
+        max-width:fit-content;
+        padding: 0;
+        margin: 0;
+    }
+    
+    
+    .proficiency-flex-left-div button{
+        font-size: 10px;
+        position: relative;
+        bottom: 30px;
+        margin: 0;
+    }
+    }
+    
+    
+    @media screen and (max-width:948px){
+        .proficiency-flex-div{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+       
+     }
