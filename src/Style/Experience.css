@@ -1,14 +1,22 @@
-.experience-flex-right-div img{
-    height:30px;
-    width: max-content;
+.experience-main-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .experience-flex-div{
     width: 100%;
     display: flex;
-    justify-content:stretch;
+    justify-content:center;
     align-items: center;
 }
+
+
+.experience-flex-right-div img{
+    height:30px;
+    width: min-content;
+}
+
 
 .experience-flex-div p{
     color: grey;
@@ -91,19 +99,10 @@ h1{
 
 @media screen and (max-width:948px){
     .experience-flex-div{
+        margin-top: 100vh;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        padding: 1.3rem;
+        /* position: relative; */
+        /* top:100vh; */
     }
-
-    .experience-flex-left-div{
-        display: block;
-        /* margin:0px 5% 5% 0px; */
-        margin:0px 0px 0px 5%;
-        padding: 0;
-    }
-    
 
  }

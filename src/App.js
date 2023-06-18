@@ -27,7 +27,7 @@ function App() {
 
  
   return (
-    <>
+    <div >
     <NavBar/>
 
     {/* <div data-aos="zoom-in-up"> */}
@@ -48,8 +48,8 @@ function App() {
 
     {/* <div data-aos="zoom-in-up"> */}
     <Certifications/>
-    {/* </div> */}
-    </>
+     {/* </div> */}
+    </div>
   );
 }
 

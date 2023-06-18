@@ -4,12 +4,12 @@ import '../Style/Experience.css'
 const Experience=()=>{
     return(
         <>
-        <div className='experience-main-div' id='opening' style={{display:'flex'}}>
+        <div className='experience-main-div' id='opening'>
       <div className="experience-flex-div">
-        <div className="experience-flex-left-div" style={{flexBasis:'100%'}}>
-          <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_vnikrcia.json"  background="transparent"  speed="1"  style={{width: '300px', height: '300px', display:'relative', marginTop:'150px'}} loop  autoplay></lottie-player>
+        <div className="experience-flex-left-div" style={{padding:'0', margin:'auto'}}>
+          <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_vnikrcia.json"  background="transparent"  speed="1"  style={{width: '300px', height: '300px'}} loop  autoplay></lottie-player>
         </div>
-        <div className="experience-flex-right-div" style={{flexBasis:'100%'}}>
+        <div className="experience-flex-right-div">
             <h1 style={{fontWeight:'400'}}>What I do</h1>  
             <p style={{display:'block'}}>Crazy Full stack developer who wants to explore every Tech stack</p>
             <img src="https://e7.pngegg.com/pngimages/837/140/png-clipart-html-5-logo-html5-grey-black-icons-logos-emojis-tech-companies-thumbnail.png" alt="HTML 5" />

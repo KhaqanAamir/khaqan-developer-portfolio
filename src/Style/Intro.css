@@ -1,5 +1,5 @@
 .intro-main-div{
-    margin:70px 70px 0px 70px;
+    margin:7vh 7vw 0px 7vw;
 }
 
 .intro-flex-div{
@@ -19,11 +19,10 @@
 }
 
 .intro-flex-right-div{
-    flex-basis: 100%;
-    position: relative;
-    bottom: 120px;
-    left: 120px;
-     
+    /* flex-basis: 100%;  */
+    position: relative; 
+    bottom: 15vh;
+    left: 5vw;     
 }
 
 
@@ -77,7 +76,7 @@ img{
     }
     .intro-flex-right-div{
          display: block;
-        margin:0px 50% 0px 0px;
+        margin:auto;
     }
     
     
