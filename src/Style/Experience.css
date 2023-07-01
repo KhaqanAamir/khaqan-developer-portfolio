@@ -2,10 +2,10 @@
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
+    margin: 1em;
 }
 
 .experience-flex-div{
-    width: 100%;
     display: flex;
     justify-content:center;
     align-items: center;
@@ -13,8 +13,7 @@
 
 
 .experience-flex-right-div img{
-    height:30px;
-    width: min-content;
+    height:4vh;
 }
 
 
@@ -62,47 +61,12 @@ img{
     color:blue;
 }
 
-/* 
-@media screen and (max-width:948px){ 
-
-h1{
-    margin: 0;
-}
-.experience-main-div p{
-    font-size: 1.1rem;
-}
-
-.experience-flex-div{
-    justify-content: center;
-}
-
-.experience-flex-left-div{
-    max-width: fit-content;
-    height: 350vh;
-}
-
-.experience-flex-right-div{
-    max-width:fit-content;
-    padding: 0;
-    margin: 0;
-}
-
-
-.experience-flex-left-div button{
-    font-size: 10px;
-    position: relative;
-    bottom: 30px;
-    margin: 0;
-}
-} */
 
 
 @media screen and (max-width:948px){
     .experience-flex-div{
-        margin-top: 100vh;
+        margin-top: 1em;
         flex-direction: column;
-        /* position: relative; */
-        /* top:100vh; */
     }
 
  }

@@ -1,10 +1,21 @@
+body {
+    overflow-x: hidden; /* Prevent horizontal overflow */
+    overflow-y: auto; /* Add vertical scrollbar if needed */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box; /* Ensure padding and borders are included in element dimensions */
+}
+
 /* Education component styling */
 html{
     width:fit-content;
     overflow-x: hidden;
 }
 .Education-main-div{
-    margin: 70px;
+    margin: 2em;
 }
 
 .school{
@@ -14,12 +25,12 @@ html{
 
 .Education-image-div{
     flex-basis:content;
-    margin:0px 25px 0px 0px;
+    margin:0px 2em 0px 0px;
 }
 
 .Education-image-div img{ 
-    height:120px;
-    width: 100px;
+    height:12vh;
+    width: 14vw;
     border-radius: 50%;
-    box-shadow: 0px 0px 20px 5px  lightgray;
+    box-shadow: 0px 0px 20em 5em  lightgray;
 }

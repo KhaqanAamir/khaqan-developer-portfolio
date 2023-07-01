@@ -24,7 +24,7 @@ function Intro() {
         </div>
         <div className="intro-flex-right-div" style={{flexBasis:'55%'}}>
           <div className='container'>
-          <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_8LsVR1wgsM.json"  background="transparent"  speed="1"  style={{width: '500px', height: '300px', marginTop:'7em'}} loop  autoplay></lottie-player>
+          <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_8LsVR1wgsM.json"  background="transparent"  speed="1"  style={{width: '15em', height: '30vh', marginTop:'7em'}} loop  autoplay></lottie-player>
           </div>
          </div>
       </div>  

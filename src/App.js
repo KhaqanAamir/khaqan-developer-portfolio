@@ -39,7 +39,7 @@ function App() {
     {/* </div> */}
     
     {/* <div data-aos="zoom-in-up"> */}
-    <Proficiency/>
+     <Proficiency/>
     {/* </div> */}
 
     {/* <div data-aos="zoom-in-up"> */}

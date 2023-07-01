@@ -1,5 +1,7 @@
 .intro-main-div{
-    margin:7vh 7vw 0px 7vw;
+    margin:3em;
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
 .intro-flex-div{
@@ -19,7 +21,7 @@
 }
 
 .intro-flex-right-div{
-    /* flex-basis: 100%;  */
+    flex-basis: 100%; 
     position: relative; 
     bottom: 15vh;
     left: 5vw;     
@@ -29,7 +31,7 @@
 .intro-flex-right-div svg{
     height:fit-content;
     position: relative;
-    bottom: 50px;
+    bottom: 50vh;
 }
 
 .social-media-icons{
@@ -42,11 +44,11 @@ img{
 }
 
 .intro-flex-left-div button{
-    padding: 10px;
+    padding: 1em;
     background-color: rgb(112, 11, 184);
     border-radius: 10px;
     width:fit-content;
-    margin:0px 45px;
+    margin:0em 5em;
     border:0px;
 }
 
@@ -57,7 +59,7 @@ img{
 
 
 .intro-flex-right-div img{
-    margin: 0px 15px 20px 0px;
+    margin: 0em 15em 20em 0px;
 }
 
 .intro-flex-right-div a:hover{
@@ -66,7 +68,7 @@ img{
 
 @media screen and (max-width:948px){
     .intro-main-div{
-        max-height:60vh;
+        height:fit-content
     }
     .intro-flex-div{
         flex-direction: column;
