@@ -1,11 +1,10 @@
 .certifications-maindiv{
-    margin: 2rem;   
-
+    margin: 2em;   
 }
 
 .certifications-container{
     display: flex;
-    justify-content: space-evenly;
+    justify-content:center;
     text-align: center;
     flex-wrap: wrap;
 }
@@ -14,19 +13,27 @@
     box-shadow: 1px 5px 10px 5px #888888;
     border-radius: 0.8em;
     line-height: 2em;
-    padding: 8px;
-    max-width:fit-content;
+    padding: 0.5em;
+    width:fit-content;
     margin: 1rem;
+    font-size: 0.8rem;
+    overflow-wrap: break-word; 
+    word-wrap: break-word;
+    text-align: center;
+}
+
+
+.certification1 h5{
+    font-size: 0.8rem;
 }
 
 .certification1 img{
-    height:fit-content;
-    width:30vw;    
+    height:15vh;
+    width:5vw;    
 }
 
 .certification1 button{
-    padding: 1em;
-    font-size: 1rem;
+    padding: 0.5em;
     background-color: rgb(112, 11, 184);
     color: white;
     border-radius: 1em;
@@ -34,4 +41,18 @@
     font-weight: 700;
     border:0px;
     margin-bottom: 1em;
+}
+
+.certification1 a{
+    font-size: 1rem;
+}
+
+ .certification1 p{
+    width: 20vw;
+} 
+
+@media screen and (max-width:948px){
+    .certification1 p{
+        width:18rem;
+    }   
 }

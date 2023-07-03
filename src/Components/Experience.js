@@ -7,7 +7,7 @@ const Experience=()=>{
         <div className='experience-main-div' id='opening'>
       <div className="experience-flex-div">
         <div className="experience-flex-left-div" style={{padding:'0', margin:'auto'}}>
-          <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_vnikrcia.json"  background="transparent"  speed="1"  style={{width: '300px', height: '300px'}} loop  autoplay></lottie-player>
+          <lottie-player src="https://assets6.lottiefiles.com/packages/lf20_vnikrcia.json"  background="transparent"  speed="1" loop  autoplay></lottie-player>
         </div>
         <div className="experience-flex-right-div">
             <h1 style={{fontWeight:'400'}}>What I do</h1>  

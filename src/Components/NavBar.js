@@ -15,7 +15,7 @@ function NavBar() {
     
     <nav>
       <motion.div className="nav-left-side"  whileHover={{scale:1.5}} animate={{ scale:1, rotate:rotate?360:0}}  transition={{type:'spring', duration:3}} initial={{scale:0}} onClick={(e)=>{e.preventDefault();setRotate(!rotate)}}>
-        <a href="/" className='logo'>
+        <a href="/" className='logo' >
           <span style={{color:"grey"}}></span>
           <span className='navname' style={{color:"purple"}}>Khaqan Aamir</span>
           <span style={{color:"grey"}}></span>

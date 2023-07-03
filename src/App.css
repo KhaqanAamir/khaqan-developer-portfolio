@@ -11,11 +11,16 @@ body {
 
 /* Education component styling */
 html{
-    width:fit-content;
     overflow-x: hidden;
+    margin: 0;
 }
+
 .Education-main-div{
-    margin: 2em;
+    margin: 1em;
+}
+
+.Education-explaination-div{
+    font-size: 1em;
 }
 
 .school{
@@ -30,7 +35,7 @@ html{
 
 .Education-image-div img{ 
     height:12vh;
-    width: 14vw;
+    width: 5vw;
     border-radius: 50%;
     box-shadow: 0px 0px 20em 5em  lightgray;
 }

@@ -13,7 +13,8 @@
 
 
 .experience-flex-right-div img{
-    height:4vh;
+    height:2rem;
+    width: 2rem;
 }
 
 
@@ -30,22 +31,22 @@ img{
     text-align:left
 }
 
-.experience-flex-left-div{
-    /* position: relative;
-    left: 10rem;
-    bottom: 5rem; */
-    padding: 0px 0px 20% 10%;
+.experience-flex-left-div lottie-player{
+    width: 20em;
+    height: 30rem;
+    margin-right: 12em;
+    margin-bottom: 5em;
 }
 
-
-.experience-flex-left-div button{
-    padding: 10px;
-    background-color: rgb(112, 11, 184);
-    border-radius: 10px;
-    width:fit-content;
-    margin:0px 45px;
-    border:0px;
-}
+    /* 
+    .experience-flex-left-div button{
+        padding: 10px;
+        background-color: rgb(112, 11, 184);
+        border-radius: 10px;
+        width:fit-content;
+        margin:0px 45px;
+        border:0px;
+    } */
 
 .experience-flex-left-div button a{
     color: white;
@@ -54,7 +55,7 @@ img{
 
 
 .experience-flex-right-div img{
-    margin: 0px 15px 20px 0px;
+    margin: 0px 5em 2em 0px;
 }
 
 .experience-flex-right-div a:hover{
@@ -67,6 +68,11 @@ img{
     .experience-flex-div{
         margin-top: 1em;
         flex-direction: column;
+       
     }
 
+    .experience-flex-left-div lottie-player{
+        margin-right: 0;
+        height: fit-content;
+    }
  }

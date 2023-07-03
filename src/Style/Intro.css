@@ -1,7 +1,6 @@
 .intro-main-div{
     margin:3em;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 .intro-flex-div{
@@ -28,11 +27,12 @@
 }
 
 
-.intro-flex-right-div svg{
-    height:fit-content;
-    position: relative;
-    bottom: 50vh;
-}
+ .intro-flex-right-div lottie-player{
+    width: 20rem;
+    height: 20rem;
+    margin-top: 7vh;
+    margin-left: 10vw;
+} 
 
 .social-media-icons{
     display: flex;
@@ -81,6 +81,10 @@ img{
         margin:auto;
     }
     
+    .intro-flex-right-div lottie-player{
+        margin-left: 0;
+        margin-top: 13vh;
+    }
     
 
  }

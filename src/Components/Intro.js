@@ -23,8 +23,8 @@ function Intro() {
           <button><a href="https://drive.google.com/file/d/1F5VNluHiBWUhnHuNZG_CT3RWV3xMWFoz/view?usp=sharing" >See My Resume</a></button>
         </div>
         <div className="intro-flex-right-div" style={{flexBasis:'55%'}}>
-          <div className='container'>
-          <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_8LsVR1wgsM.json"  background="transparent"  speed="1"  style={{width: '15em', height: '30vh', marginTop:'7em'}} loop  autoplay></lottie-player>
+          <div className='container' style={{margin:'auto'}}>
+          <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_8LsVR1wgsM.json"  background="transparent"  speed="1"  loop  autoplay></lottie-player>
           </div>
          </div>
       </div>  
