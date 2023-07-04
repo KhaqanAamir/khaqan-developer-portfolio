@@ -40,7 +40,7 @@
 }
 
 .intro-flex-left-div img{
-    width: 1.5em;
+    width: 2em;
 }
 
 .intro-flex-left-div button{
@@ -54,7 +54,7 @@
 
 .intro-flex-left-div button a{
     color: white;
-    font-size: small;
+    font-size: medium;
 }
 
 

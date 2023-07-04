@@ -13,5 +13,13 @@
 }
 
 .mdcard{
-    width: 12em;
+    width: 18em;
+}
+
+@media screen and (max-width:948px){
+    .mdcard{
+        width: 25em;
+    }
+    
+
 }
