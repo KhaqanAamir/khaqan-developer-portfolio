@@ -27,7 +27,10 @@ const Experience=()=>{
             <img src="https://e7.pngegg.com/pngimages/442/914/png-clipart-docker-logo-icons-logos-emojis-tech-companies-thumbnail.png" alt="Docker" /> <br />
             <p>⚡ Develop highly interactive Front end / User Interfaces for your web applications</p>
             <p>⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks</p>
-            <p>⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean</p>
+            <p>⚡ Built reusable components to ensure code efficiency and maintainability.</p>
+            <p>⚡ Integrated JavaScript with RESTful APIs to fetch and manipulate data.</p>
+            <p>⚡ Collaborated with back-end developers to ensure seamless integration between front-end and server-side logic</p>
+            <p>⚡ Developed front-end logic and interactive features using pure JavaScript</p>
         </div>
       </div>  
     </div>

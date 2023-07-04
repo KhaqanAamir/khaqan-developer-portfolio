@@ -75,4 +75,9 @@ img{
         margin-right: 0;
         height: fit-content;
     }
+
+    .experience-flex-right-div img{
+        margin: 0.5em;
+    }
+    
  }

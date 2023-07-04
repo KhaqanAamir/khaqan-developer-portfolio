@@ -1,7 +1,6 @@
 @media screen and (max-width:948px){
 
-    /* .Education-main-div{
-        position: relative;
-        top:60vh;
-    } */
+    .Education-image-div img{ 
+        width: 3em;
+    }
 }

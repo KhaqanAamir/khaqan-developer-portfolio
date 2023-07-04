@@ -5,25 +5,9 @@ import Proficiency from './Components/Proficiency';
 import Education from './Components/Education';
 import Experience from './Components/Experience';
 import Certifications from './Components/Certifications';
+import Projects from './Components/Projects';
 
 function App() {
-
-  // // const entry= entries[0];
-  // //     setElementVisible(entry.isIntersecting)
-  // const myRef=useRef();
-  // // const [isElementVisible, setElementVisible]=useState(null);
-
-  // useEffect(()=>{
-  //   const observer=new IntersectionObserver(entry=>{
-  //     if(!entry.isIntersecting){
-  //       return(observer)
-  //     }
-  //   })
-
-  //   observer.observe(myRef.current)
-
-  // },[myRef])
-
 
  
   return (
@@ -49,6 +33,7 @@ function App() {
     {/* <div data-aos="zoom-in-up"> */}
     <Certifications/>
      {/* </div> */}
+     <Projects/>
     </div>
   );
 }

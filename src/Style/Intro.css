@@ -19,12 +19,12 @@
     text-align: center;
 }
 
-.intro-flex-right-div{
+ .intro-flex-right-div{
     flex-basis: 100%; 
     position: relative; 
     bottom: 15vh;
     left: 5vw;     
-}
+} 
 
 
  .intro-flex-right-div lottie-player{
@@ -39,8 +39,8 @@
     justify-content: space-around;
 }
 
-img{
-    width: 8%;
+.intro-flex-left-div img{
+    width: 1.5em;
 }
 
 .intro-flex-left-div button{
@@ -83,7 +83,12 @@ img{
     
     .intro-flex-right-div lottie-player{
         margin-left: 0;
-        margin-top: 13vh;
+        margin-top: 10vh;
+    }
+
+    .intro-flex-left-div button{
+        width: 32vw;
+        padding: 0.2em;
     }
     
 

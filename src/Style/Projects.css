@@ -1,0 +1,17 @@
+.Projects-main-div{
+    margin:3em
+}
+
+.Projects-flex-div{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.mdimage{
+    height: 20vh;
+}
+
+.mdcard{
+    width: 25vw;
+}
