@@ -18,7 +18,7 @@ function Intro() {
             <a href="https://www.facebook.com/khaqan.aamir.10/"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Facebook_icon.svg/1024px-Facebook_icon.svg.png" alt="Facebook" /></a>       
             <a href="https://twitter.com/AamirKhaqan"><img src="https://w7.pngwing.com/pngs/570/634/png-transparent-twitter-logo-icon-twitter-computer-network-logo-meme-thumbnail.png" alt="Facebook" /></a>         
           </div><br /><br />
-          <button><a href="https://drive.google.com/file/d/1M8JcTj9GebFdUsgj_HVBfiYzjBigh7K1/view?usp=sharing" >See My Resume</a></button>
+          <button><a href="https://drive.google.com/file/d/1M8JcTj9GebFdUsgj_HVBfiYzjBigh7K1/view?usp=drive_link" alt="my resume" >See My Resume</a></button>
         </div>
         <div className="intro-flex-right-div" style={{flexBasis:'55%'}}>
           <div className='container' style={{margin:'auto'}}>
